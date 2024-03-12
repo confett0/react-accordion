@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Accordion() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(null);
 
   return (
     <>
@@ -52,8 +52,8 @@ function Panel({ title, children, isActive, onShow }) {
   return (
     <>
       <section className="panel">
-        <h3>{title}</h3>
-        {isActive ? <p>{children}</p> : <button onClick={onShow}></button>}
+        <h3>{title}</h3> <button onClick={onShow}></button>
+        {isActive ? <p>{children}</p> : ""}
       </section>
     </>
   );
