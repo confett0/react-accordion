@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '@fontsource-variable/work-sans';
 
 export default function Accordion() {
   const [activeIndex, setActiveIndex] = useState(null);
