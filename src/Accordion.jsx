@@ -7,7 +7,7 @@ export default function Accordion() {
   }
 
   return (
-    <>
+    <div className="accordion-wrap">
       <h1>FAQs</h1>
       <Panel
         title="What is Frontend Mentor, and how will it help me?"
@@ -47,7 +47,7 @@ export default function Accordion() {
         community. There's a help channel where you can ask questions and seek
         support from other community members.
       </Panel>
-    </>
+    </div>
   );
 }
 

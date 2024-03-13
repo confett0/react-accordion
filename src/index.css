@@ -4,12 +4,8 @@
   font-weight: 400;
 
   color: hsl(292, 42%, 14%);
-  background-color: hsl(275, 100%, 97%);
+  background: url('./assets/images/background-pattern-desktop.svg') no-repeat center top hsl(275, 100%, 97%);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
