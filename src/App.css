@@ -7,7 +7,7 @@
 .accordion-wrap {
   background-color: #fff;
   border-radius: 1rem;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 15px -3px hsla(0, 0%, 0%, 0.1);
   padding: 2.5rem;
   width: 40vw;
 }
@@ -31,4 +31,8 @@ button {
     justify-content: space-between;
     text-align: left;
     width: 100%;
+}
+
+button:hover {
+    color: hsl(276, 78%, 55%);
 }

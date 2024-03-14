@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color: hsl(292, 42%, 14%);
-  background: url('./assets/images/background-pattern-desktop.svg') no-repeat center top #f9f0ff;
+  background: url('./assets/images/background-pattern-desktop.svg') no-repeat center top hsl(276, 100%, 97%);
 
   box-sizing: border-box;
   margin: 0;
