@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '@fontsource-variable/work-sans';
+import "@fontsource-variable/work-sans";
 
 export default function Accordion() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -56,7 +56,10 @@ function Panel({ title, children, isActive, onShow }) {
   return (
     <>
       <section className="panel">
-        <h3>{title}</h3> <button onClick={onShow}></button>
+        <a className="title-wrap" onClick={onShow}>
+          <h3>{title}</h3> 
+          <img src={isActive ? "src/assets/images/icon-minus.svg" : "src/assets/images/icon-plus.svg"} />
+        </a>
         {isActive ? <p>{children}</p> : null}
       </section>
     </>

@@ -18,3 +18,9 @@ h1:before {
   padding-right: 1rem;
   vertical-align: middle;
 }
+
+.title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
