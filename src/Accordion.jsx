@@ -40,7 +40,7 @@ export default function Accordion() {
         employers!
       </Panel>
       <Panel
-        title="How can I get help if I'm stuck on a Frontend Mentor challenge?"
+        title="How can I get help if I'm stuck on a challenge?"
         isActive={activeIndex === 3}
         onShow={() => togglePanel(3)}
       >
