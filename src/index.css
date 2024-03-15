@@ -1,11 +1,11 @@
 :root {
-  font-family: 'Work Sans Variable', sans-serif;
+  font-family: "Work Sans Variable", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color: hsl(292, 42%, 14%);
-  background: url('./background-pattern-desktop.svg') no-repeat center top hsl(276, 100%, 97%);
-
+  background: url("/background-pattern-desktop.svg") no-repeat center top
+    hsl(276, 100%, 97%);
 }
 
 * {
