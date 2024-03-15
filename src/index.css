@@ -32,3 +32,21 @@ p {
   color: hsl(292, 16%, 49%);
   margin-top: 2rem;
 }
+
+a {
+  color: hsl(276, 78%, 55%);
+  transition: 300ms ease-in-out;
+}
+
+a:hover {
+  color:hsl(292, 42%, 14%);
+}
+
+a:visited {
+  color: hsl(292, 16%, 49%);
+}
+
+footer {
+  font-size: 0.8rem;
+  text-align: center;
+}

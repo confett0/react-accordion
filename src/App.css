@@ -1,7 +1,10 @@
 #root {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 0 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .accordion-wrap {
@@ -24,32 +27,31 @@ h3 {
   font-size: 1rem;
 }
 
-
 button {
-    background: none;
-    border: none;
-    color: inherit;
-    cursor: pointer;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: space-between;
-    text-align: left;
-    transition: 300ms ease-in-out;
-    width: 100%;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  transition: 300ms ease-in-out;
+  width: 100%;
 }
 
 .panel {
-    border-bottom: 1px solid #eee;
-    margin-top: 1.5rem;
-    padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .panel:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 button:hover {
-    color: hsl(276, 78%, 55%);
+  color: hsl(276, 78%, 55%);
 }
