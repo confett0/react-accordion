@@ -14,7 +14,7 @@
 }
 
 h1:before {
-  content: url("./assets/images/icon-star.svg");
+  content: url("/icon-star.svg");
   display: inline-block;
   padding-right: 1rem;
   vertical-align: middle;

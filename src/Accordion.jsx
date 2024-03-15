@@ -57,7 +57,7 @@ function Panel({ title, children, isActive, onShow }) {
     <>
       <section className="panel">
         <button onClick={onShow}>
-          <h3>{title}</h3> <img src={isActive ? "src/assets/images/icon-minus.svg" : "src/assets/images/icon-plus.svg"} />
+          <h3>{title}</h3> <img src={isActive ? "/icon-minus.svg" : "/icon-plus.svg"} />
         </button>
         {isActive ? <p>{children}</p> : null}
       </section>
